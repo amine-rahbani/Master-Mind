@@ -1,0 +1,29 @@
+# Ignore object files and executable
+*.o
+*.out
+*.exe
+
+# Ignore backup and temporary files
+*.tmp
+*.swp
+*~
+*.bak
+
+# Ignore compiled debug files
+*.dSYM/
+*.stackdump
+
+# Ignore generated files (e.g., logs or scores)
+SCORE-*.txt
+
+# Ignore IDE and editor-specific files
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+.idea/
+*.iml
+
+# Ignore build directories (if any)
+build/
+dist/
